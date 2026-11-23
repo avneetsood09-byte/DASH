@@ -2,7 +2,7 @@ from dash import Dash, dcc, html, Output, Input
 import dash_bootstrap_components as dbc
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.SOLAR])
-
+sever= app.sever
 # my_output = dcc.Markdown(children='')
 app.layout = dbc.Container([                # Customize the style and layout of the page--------------------------------
     my_text := dcc.Input(value='Type Text new now'),
